@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #131417;
+}
+/* .example{
+    background-color: green;
+    transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+.example:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 1s ;
+    border-radius: 50%;
+    margin: 30px 0px 0px 50px;
+
+}
+.example2{
+    width: 200px;
+    background-color: yellow;
+    height: 200px;
+    transition: 1s;
+}
+.example:hover .example2{
+    border-radius: 50%;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .navbar{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+h1{
+    position: relative;
+    z-index: 1;
+} */
+
+/* .banner{
+    width: 300px;
+    height: 300px;
+    background-image: url('https://wallpapercave.com/wp/U0ANXEw.jpg');
+    overflow: auto;
+
+}
+
+img{
+    height: 800vh;
+    width: 100%;
+    object-fit: cover;
+} */
+
+/* .box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid green;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+ */
+ .child{
+     width: 395px;
+     height: 195px;
+     border-radius: 10px;
+     margin: auto;
+     margin-right: 100px;
+ }
+ .child img{
+     width: 395px;
+     height: 195px;
+     background-position: center;
+     border-radius: 10px;
+ }
+
+ .dad{
+     width: 395px;
+     height: 195px;
+     z-index: 1;
+     display: grid;
+     place-items: center;
+     border-radius: 10px;
+     transition: cubic-bezier(0.19, 1, 0.22, 1);
+     position: relative;
+
+ }
+ .dad:hover{
+     width: 410px;
+     height: 240px;
+     background-color: #2b2e35;
+     opacity: 0.7;
+     z-index: 1;
+    transition: 0.1s;
+ }
+ .dad:hover .collection img{
+     width: 20px;
+     height: 30px;
+     color: #fff;
+ }
+ .collection{
+     display: flex;
+     align-items: center;
+     width: 200px;
+     height: 30px;
+     position: absolute;
+     top: 200px;
+     left: 20px;
+     z-index: 2;
+     justify-content: space-evenly;
+
+ }
+ .dad:hover .collection{
+     margin-top: 10px;
+ }
+ .like{
+     display: flex;
+     align-items: center;
+     width: 45px;
+     height: 20px;
+     color: #fff;
+     justify-content: space-evenly;
+     background-color: #131417;
+     border-radius: 6px;
+     z-index: 2;
+ }
+ .eye{
+    display: flex;
+    align-items: center;
+     justify-content: space-evenly;
+     width: 60px;
+    height: 20px;
+    color: #fff;
+    background-color: #131417;
+    border-radius: 6px;
+    z-index: 2;
+ }
+
+ 
+
